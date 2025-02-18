@@ -4,8 +4,8 @@
 import cv2
 
 # Loading the cascades
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+face_cascade = cv2.CascadeClassifier("D:\Computer_Vision_A_Z_Template_Folder\Module_1_Face_Recognition\haarcascade_frontalface_default.xml")
+eye_cascade = cv2.CascadeClassifier("D:\Computer_Vision_A_Z_Template_Folder\Module_1_Face_Recognition\haarcascade_eye.xml")
 
 # Defining a function that will do the detections
 def detect(gray, frame):
